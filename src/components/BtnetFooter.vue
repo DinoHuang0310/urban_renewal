@@ -11,7 +11,7 @@
     </div>
     
     <transition>
-      <button v-if="goTop" v-show="showButton" @click="backTop(500)"><i class="fa fa-chevron-circle-up"></i></button>
+      <button v-if="goTop" v-show="showButton" @click="backTop(500)"><i class="fa fa-chevron-circle-up" /></button>
     </transition>
   </footer>
 </template>
