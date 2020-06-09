@@ -57,4 +57,5 @@ export default {
     margin: 4em auto;
   }
 }
+
 </style>
