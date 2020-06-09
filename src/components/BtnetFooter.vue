@@ -9,7 +9,6 @@
         <small>數位Copyright © {{ year }}今周刊. Business Today All rights reserved.版權所有，禁止擅自轉貼節錄</small>
       </p>
     </div>
-    
     <transition>
       <button v-if="goTop" v-show="showButton" @click="backTop(500)"><i class="fa fa-chevron-circle-up" /></button>
     </transition>
