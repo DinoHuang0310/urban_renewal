@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+}
+
+html.fixed {
+    overflow: hidden;
+    margin-right: 17px;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif, 'Microsoft JhengHei', arial;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+ul,
+li,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+input,
+select,
+button {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+h2 {
+    color: #4e75ab;
+    font-size: 2em;
+    font-family: cwTeXFangSong;
+    margin-top: 0;
+}
+
+mark {
+    background: none;
+}
+
+h2 mark {
+    color: #ec8000;
+}
+
+
+/* start */
+
+.wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.maintop {
+    background: #212121;
+    padding-top: 60px;
+}
+
+.maintop .wrapper {
+    position: relative;
+    padding: 4em 0;
+}
+
+.area {
+    margin: 8em 0;
+}
+
+.readmore {
+    text-align: right;
+}
+
+.readmore a {
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    background: #0087cd;
+    padding: 0.2em 0.8em;
+    opacity: 1;
+    transition: .5s;
+}
+
+.slider.area {
+    margin-bottom: 0;
+}
+
+@media (hover: hover) {
+    .readmore:hover a {
+        opacity: .7;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.8em;
+    }
+    .area {
+        margin: 6em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html.fixed {
+        margin-right: 0;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    .area {
+        margin: 4em 0;
+    }
+    .maintop {
+        padding-top: 50px;
+    }
+    .maintop .wrapper {
+        width: 100%;
+        padding: 4em 0;
+    }
+    .readmore {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper.ad {
+        width: 95%;
+    }
+}
