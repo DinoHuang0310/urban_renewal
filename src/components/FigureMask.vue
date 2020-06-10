@@ -270,4 +270,5 @@ export default {
     transform: translate(-50%, 0) rotate(90deg);
   }
 }
+
 </style>
